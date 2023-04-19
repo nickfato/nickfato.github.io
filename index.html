@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<title>template.html</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="content">
+<nav id="main-nav">
+<h1> Nick Fato</h1>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="quiz.html">Quiz</a></li>
+<li><a href="contact.html">Contact Me</a></li>
+</ul>
+</nav>
+<main>
+  <div id="mainimage">
+  <img src="images/me1.JPG" id="soccerimg">
+  <img src="images/me2.jpg" id="basketballimg" class="hidden">
+  <img src="images/me3.jpg" id="italyimg" class="hidden">
+  <img src="images/me4.JPG" id="marylandimg" class="hidden">
+  </div>
+    <div id="about-me">
+    <h2>About Me</h2>
+    <p>My name is Nick Fato and I am currently a Sophomore at the University of South Carolina. I am from Baltimore, Maryland and am pursuring an Environmental Science major. I enjoy playing soccer, playing basketball, fishing, and spending time with my friends and family. When I am not in class, I also enjoy thrifting and reselling clothes as a side business.  </p>
+    <p id="abme" class="hidden">I have always enjoyed doing hands on activities and playing sports all throughout my life. In middle school through highschool I played both soccer and basketball. In highschool I began to run indoor track and really began to enjoy running. One interesting fact about me is that I actually ran a sub 5-minute mile during my running career. </p>
+          <a href="#" onclick="seeMore()" id="seemore">See More...</a>
+          <a href="#" onclick="seeLess()" class="hidden" id="seeless">See Less...</a>
+  </div>
+  <div id="career-plans">
+    <h2>My Future Career Plans</h2>
+    <p>In terms of my future career plans I am not 100% set on a specific job, rather I know the field I want to pursue. As I mentioned earlier, I am pursuing an Environmental Science degree in college. With this being said I know that I want to have a hands on job that works with the environment in some respect. Whether it be an environmental engineer or more of a biologist, I love anything to do with the environment and outdoors.</p>
+    <p id="career" class="hidden">I plan on gettin an internship next summer in order to gain some work experience in my future potential workfield, and get a surface idea of what I may want to do specifically. Moreover, this summer, I plan to get some certifications (ie. scuba, etc.) so that my credentials gain more merit and I have a wider skillset to pursue a future career with. All in all I may not know exactly what job position I want to take when I'm older, but I definitely know the direction I want to head towards!</p>
+      <a href="#" onclick="getMore()" id="getmore">See More...</a>
+      <a href="#" onclick="getLess()" class="hidden" id="getless">See Less...</a>
+      <div id="video">
+        <h2> What I Learned From Computer Science</h2>
+        <iframe width="347" height="618" src="https://www.youtube.com/embed/Fq9OK6ScXi8" title="What I Learned From Computer Science" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+  </div>
+</main>
+<footer>
+<p>&copy;Nick Fato</p>
+</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

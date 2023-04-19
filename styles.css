@@ -1,0 +1,69 @@
+#content {
+  width:80%;
+  margin:auto;
+}
+h1 {
+	background:#60A3D9;
+	padding:5px;
+	text-align:center;
+}
+main {
+	padding:5px;
+	background:#BFD7ED;
+}
+footer {
+	padding:5px;
+	background:#60A3D9;
+	text-align:center;
+}
+body {
+	background:#003B73
+}
+
+#main-nav a{
+	background:#0074B7;
+	padding:5px;
+}
+#main-nav li{
+  text-align:center;
+  display:inline;
+}
+nav {
+  background:#60A3D9;
+  text-align:center;
+ padding:5px;
+}
+h2{
+  text-align:center;
+}
+#career-plans,#about-me{
+  padding: 25px;
+  margin:15px;
+}
+#mainimage{
+  text-align:center;
+}
+img{
+  box-shadow: 10px 10px white;
+}
+#directions{
+  text-align:center;
+}
+#map{
+  text-align:center;
+}
+#contactme{
+  text-align:center;
+}
+.hidden{
+  display:none;
+}
+#thequiz{
+  text-align:center;
+}
+#theresults{
+  text-align:center;
+}
+#video{
+  text-align:center;
+}
